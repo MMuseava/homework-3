@@ -43,3 +43,32 @@ p{
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 600px) {
+  .image-card-container{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    
+  }
+
+  img{
+    width: 100px;
+
+  }
+
+  .button{
+    display: flex;
+  justify-content: center;
+  gap: 10px; 
+
+}
+p{
+    font-size: 25px;
+}
+  }
+
+  
+
