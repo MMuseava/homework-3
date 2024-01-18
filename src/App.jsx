@@ -78,12 +78,7 @@ function App() {
       {info && (
         <>
 				  <p className="info-display">{info}</p>
-				  <div className='video'>
-          <video  className="info-video" controls>
-            <source width={"400px"} src={videoWinter} type="video/mp4" />
-          
-					  </video>
-					  </div>
+				  
         </>
       )}
     </div>
